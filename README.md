@@ -9,9 +9,9 @@ Masking Utility
 
 3. Invoking
 	* In downloaded base directory run:
-		** $ http-server
-		** $ node server/server.js - There is another file in this server directory called maskInput.txt that can be changed between each mask click action in the browser interface session
-		** $ In a browser launch http://localhost:8080 
+		* $ http-server
+		* $ node server/server.js - There is another file in this server directory called maskInput.txt that can be changed between each mask click action in the browser interface session
+		* $ In a browser launch http://localhost:8080 
 
 Assumptions:
 * The document that is to be masked is a hardcoded in the code and used for demonstration purposes. Ideally this would be served by the same nodeJS server under different route.
